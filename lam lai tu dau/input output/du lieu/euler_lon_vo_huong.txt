@@ -1,0 +1,14 @@
+# 8 đỉnh, 10 cạnh; liên thông, hai phía; mọi đỉnh có bậc chẵn.
+0
+8 10
+a b c h g f e d
+a h 2
+a b 3
+b c 4
+c h 5
+a d 2
+d e 3
+e h 4
+a f 5
+f g 2
+g h 3

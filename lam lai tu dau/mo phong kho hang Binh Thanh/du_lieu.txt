@@ -1,0 +1,31 @@
+# Mạng kho giả lập lấy bối cảnh Bình Thạnh, TP. Hồ Chí Minh.
+# Tên kho và đường lấy cảm hứng từ địa danh; vị trí, tuyến nối hoàn toàn minh họa.
+# Đây là sơ đồ 5000 × 4000 m, không phải vị trí kho hoặc mạng đường thực tế.
+# [KHO]: tên|x (m)|y (m).
+# [TUYEN]: kho đầu|kho cuối|tên đường|x,y;x,y;... (gồm cả điểm đầu và cuối).
+# Tuyến vận chuyển hai chiều. Chương trình tự tính km từ tổng độ dài các đoạn trên sơ đồ.
+
+[KHO]
+Kho Nơ Trang Long|1000|800
+Kho Nguyễn Xí|2700|650
+Kho Bình Quới|4100|1300
+Kho Bạch Đằng|850|2100
+Kho Đinh Bộ Lĩnh|2300|2050
+Kho Xô Viết Nghệ Tĩnh|3550|2250
+Kho Điện Biên Phủ|1750|3300
+Kho Nguyễn Hữu Cảnh|3650|3400
+
+[TUYEN]
+Kho Nơ Trang Long|Kho Nguyễn Xí|Nơ Trang Long|1000,800;1850,800;1850,650;2700,650
+Kho Nơ Trang Long|Kho Bạch Đằng|Phan Đăng Lưu|1000,800;850,800;850,2100
+Kho Nguyễn Xí|Kho Bình Quới|Bình Quới|2700,650;4100,650;4100,1300
+Kho Nguyễn Xí|Kho Đinh Bộ Lĩnh|Nguyễn Xí|2700,650;2700,1450;2300,1450;2300,2050
+Kho Nguyễn Xí|Kho Xô Viết Nghệ Tĩnh|Nguyễn Xí / Xô Viết Nghệ Tĩnh|2700,650;3200,1100;3550,1550;3550,2250
+Kho Bình Quới|Kho Xô Viết Nghệ Tĩnh|Bình Quới|4100,1300;4100,2250;3550,2250
+Kho Bạch Đằng|Kho Đinh Bộ Lĩnh|Bạch Đằng|850,2100;1650,2100;1650,2050;2300,2050
+Kho Bạch Đằng|Kho Điện Biên Phủ|Lê Quang Định|850,2100;850,3300;1750,3300
+Kho Đinh Bộ Lĩnh|Kho Xô Viết Nghệ Tĩnh|Xô Viết Nghệ Tĩnh|2300,2050;2900,2050;2900,2250;3550,2250
+Kho Đinh Bộ Lĩnh|Kho Điện Biên Phủ|Đinh Bộ Lĩnh|2300,2050;2300,2850;1750,2850;1750,3300
+Kho Xô Viết Nghệ Tĩnh|Kho Điện Biên Phủ|Điện Biên Phủ|3550,2250;3000,2750;2600,3300;1750,3300
+Kho Xô Viết Nghệ Tĩnh|Kho Nguyễn Hữu Cảnh|Ung Văn Khiêm|3550,2250;3550,2600;3650,2600;3650,3400
+Kho Điện Biên Phủ|Kho Nguyễn Hữu Cảnh|Nguyễn Hữu Cảnh|1750,3300;1750,3650;3650,3650;3650,3400
